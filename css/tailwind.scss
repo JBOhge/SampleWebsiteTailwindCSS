@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+
+
+
+.bg-myblue {
+  background-color: #021c77;
+}
+
+.border-myblue {
+  border-color: #021c77;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-128 {
+  height: 32rem;
+}
+
+.min-h-halfscreen {
+  min-height: 50vh;
+}
+
+h1 {
+  @apply font-serif;
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+@tailwind utilities;
